@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zyt</groupId>
-	<artifactId>javacode</artifactId>
+	<artifactId>springboot-dubbo-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JavaCodeComplete</name>
+	<name>springboot-dubbo-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

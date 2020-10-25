@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>com.zyt</groupId>
-	<artifactId>javacode</artifactId>
+	<artifactId>springboot-dubbo-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>JavaCodeComplete</name>
+	<name>springboot-dubbo-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
