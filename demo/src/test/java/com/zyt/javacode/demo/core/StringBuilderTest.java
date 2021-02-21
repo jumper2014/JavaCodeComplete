@@ -1,7 +1,5 @@
 package com.zyt.javacode.demo.core;
 
-import lombok.var;
-
 public class StringBuilderTest {
     public static void main(String[] args) {
         var sb = new StringBuilder(1024);

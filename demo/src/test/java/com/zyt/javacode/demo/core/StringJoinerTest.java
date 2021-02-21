@@ -1,6 +1,5 @@
 package com.zyt.javacode.demo.core;
 
-import lombok.var;
 
 import java.util.StringJoiner;
 

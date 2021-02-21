@@ -1,6 +1,5 @@
 package com.zyt.javacode.demo;
 
-import lombok.SneakyThrows;
 
 import java.net.URLEncoder;
 import java.net.URLDecoder;
@@ -15,11 +14,11 @@ URL编码是浏览器发送数据给服务器时使用的编码，它通常附�
  */
 public class UrlEncoderTest {
 
-        @SneakyThrows
+
         public static void main(String[] args) {
-            String encoded = URLEncoder.encode("中文!", String.valueOf(StandardCharsets.UTF_8));
+            String encoded = URLEncoder.encode("中文!", StandardCharsets.UTF_8);
             System.out.println(encoded);
-            String decoded = URLDecoder.decode("%E4%B8%AD%E6%96%87%21", String.valueOf(StandardCharsets.UTF_8));
+            String decoded = URLDecoder.decode("%E4%B8%AD%E6%96%87%21", StandardCharsets.UTF_8);
             System.out.println(decoded);
         }
 
