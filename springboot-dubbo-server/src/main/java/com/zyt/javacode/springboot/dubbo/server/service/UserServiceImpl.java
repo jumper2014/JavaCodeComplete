@@ -12,6 +12,8 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         user.setId(id);
         user.setUsername("zyt");
+        user.setAddress("China");
+        user.setTel("88888888");
         return user;
     }
 }
